@@ -1,0 +1,14 @@
+# Secrets: never publish the API key
+.env
+
+# Python environment and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Word temporary lock files
+~$*
+
+# Kept locally, not published
+Key_Takeaways_V7.docx
+Agent_DataStructures_Reference.html

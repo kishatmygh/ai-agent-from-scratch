@@ -1,0 +1,12 @@
+# Python packages needed to run Agent-TimeToRead.ipynb
+# Install them all with:  pip install -r requirements.txt
+
+# Anthropic's SDK, used to call Claude (version 2.3.0 or later; the reference guide was checked against 2.3.0)
+anthropic>=2.3.0
+
+# Reads your ANTHROPIC_API_KEY from the .env file (load_dotenv() in the notebook)
+python-dotenv
+
+# Draws the token and cost graphs
+matplotlib
+ipykernel  # lets VS Code / Jupyter run the notebook
