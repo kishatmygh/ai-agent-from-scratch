@@ -1,18 +1,26 @@
+[![AI Agent Key Takeaways infographic](AI%20Agent%20Key%20Takeaways%20Infographic.png)](AI%20Agent%20Key%20Takeaways%20Infographic.png)
+
+Click the image to view it full size → [Here](AI%20Agent%20Key%20Takeaways%20Infographic.png)
+
 # Building an AI Agent from Scratch: Key Takeaways
 
 ## What's in this repo
 
 | File | What it is |
 |---|---|
-| [AI Agent Key Takeaways Infographic](AI%20Agent%20Key%20Takeaways%20Infographic.png) | One-page visual summary of this write-up |
-| [▶ Interactive demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html) | Animated walkthrough of the agent loop. Runs in your browser, no setup |
+| [AI Agent Key Takeaways Infographic](AI%20Agent%20Key%20Takeaways%20Infographic.png) | One-page visual summary of this write-up (shown at the top) |
+| [▶ Interactive demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html) | Animated walkthrough of the agent loop. Runs in your browser, no setup (preview below) |
 | [Agent-TimeToRead.ipynb](Agent-TimeToRead.ipynb) | **The TimeToRead Agent:** takes a text and tells you how long it will take to read, based on the stated reading speed (e.g. 200 words per minute).<br><br>Built from scratch in Python, with a saved run, step-by-step trace and graphs. |
 | [Agent_DataStructures_Reference.md](Agent_DataStructures_Reference.md) | **Recommended companion to the notebook.** Explains the Anthropic SDK classes and syntax behind the code |
 
+[![Animated preview of the TimeToRead Agent demo](Demo_Preview.gif)](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html)
+
+➡️ **[Click here for the actual Live Demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html)** (the image above is only a preview)
+
 ### Where to start
 
-1. **Infographic:** the big picture on one page.
-2. **Interactive demo:** watch the agent loop run step by step.
+1. **Infographic (top of page):** the big picture on one page.
+2. **Interactive demo (above):** watch the agent loop run step by step.
 3. **Notebook + reference guide, together:** the notebook shows *what* the code does; the reference guide explains the Anthropic SDK syntax behind it, such as why `response.content` is a list of blocks and why `block.input` is a dict. **Strongly recommended if you're new to the Anthropic SDK:** it explains the syntax you'll need to reproduce the code yourself.
 4. **The write-up below:** the concepts and lessons in more depth.
 
