@@ -9,18 +9,18 @@ Click the image to view it full size → [Here](AI%20Agent%20Key%20Takeaways%20I
 | File | What it is |
 |---|---|
 | [AI Agent Key Takeaways Infographic](AI%20Agent%20Key%20Takeaways%20Infographic.png) | One-page visual summary of this write-up (shown at the top) |
-| [▶ Interactive demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html) | Animated walkthrough of the agent loop. Runs in your browser, no setup (preview below) |
+| [▶ Interactive Simulation Demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html) | Animated, step-by-step simulation of the agent loop. Runs in your browser with no setup or API key. The model's choices are illustrated; the word count and reading-time maths run on your own text (preview below) |
 | [Agent-TimeToRead.ipynb](Agent-TimeToRead.ipynb) | **The TimeToRead Agent:** takes a text and tells you how long it will take to read, based on the stated reading speed (e.g. 200 words per minute).<br><br>Built from scratch in Python, with a saved run, step-by-step trace and graphs. |
 | [Agent_DataStructures_Reference.md](Agent_DataStructures_Reference.md) | **Recommended companion to the notebook.** Explains the Anthropic SDK classes and syntax behind the code |
 
-[![Animated preview of the TimeToRead Agent demo](Demo_Preview.gif)](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html)
+[![Animated preview of the TimeToRead Agent Interactive Simulation Demo](Demo_Preview.gif)](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html)
 
-➡️ **[Click here for the actual Live Demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html)** (the image above is only a preview)
+➡️ **[Click here to try the Interactive Simulation Demo](https://kishatmygh.github.io/ai-agent-from-scratch/basic_ai_agent_simulation_demo_INTUITIVE.html)** (the image above is only a preview. The simulation doesn't call a real AI model; the notebook does.)
 
 ### Where to start
 
 1. **Infographic (top of page):** the big picture on one page.
-2. **Interactive demo (above):** watch the agent loop run step by step.
+2. **Interactive Simulation Demo (above):** watch the agent loop run step by step. For a real run with Claude, see the notebook.
 3. **Notebook + reference guide, together:** the notebook shows *what* the code does; the reference guide explains the Anthropic SDK syntax behind it, such as why `response.content` is a list of blocks and why `block.input` is a dict. **Strongly recommended if you're new to the Anthropic SDK:** it explains the syntax you'll need to reproduce the code yourself.
 4. **The write-up below:** the concepts and lessons in more depth.
 
